@@ -1,3 +1,11 @@
+//
+//  heapSort.cpp
+//  堆排序
+//
+//  Created by Zhang Huajun on 25/9/15.
+//  Copyright (c) 2015 huajunz. All rights reserved.
+//
+
 #include <iostream>
 using namespace std;
 
