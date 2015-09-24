@@ -34,7 +34,7 @@ void HeapAdjust(int a[], int start, int end)  //对堆进行调整，使a[start~
 void HeapSort(int a[], int n)
 {   
     int temp;
-    for(int i=n/2;i>=0;i--)  //建立大顶堆, 从最后一个非页结点开始向前调整堆
+    for(int i=n/2;i>=0;i--)  //建立大顶堆, 从最后一个非叶结点开始向前调整堆
     {
         HeapAdjust(a,i,n);
     }
@@ -59,7 +59,7 @@ int main()
 
     HeapSort(a, N-1);
 
-    for(int i=0;i<N;i++)
+    for(i=0;i<N;i++)
     {
         cout<<a[i]<<" ";
     }
