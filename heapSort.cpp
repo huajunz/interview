@@ -12,9 +12,9 @@ using namespace std;
 void HeapAdjust(int a[], int start, int end)  //对堆进行调整，使a[start~end]成为一个大顶堆
 {
     int temp = a[start];
-    for(int i=2*start+1; i<=end; i=i*2+1) //i结点左孩子和右孩子分别为2i+1和2i+2. (因为根结点的序号为0)
+    for(int i=2*start+1; i<end; i=i*2+1) //i结点左孩子和右孩子分别为2i+1和2i+2. (因为根结点的序号为0)
     {
-        if(i<end && a[i]<a[i+1])  //选取左右孩子中较大值
+        if(a[i]<a[i+1])  //选取左右孩子中较大值
         {
             i++;
         }
