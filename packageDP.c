@@ -1,3 +1,10 @@
+//
+//  packageDP.c
+//  0-1背包问题——动态规划
+//
+//  Created by Zhang Huajun on 25/9/15.
+//  Copyright (c) 2015 huajunz. All rights reserved.
+//
 #include <stdio.h>
 #include <iostream>
 using namespace std;
